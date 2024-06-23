@@ -16,3 +16,5 @@ steps:
         'push',
         'southamerica-east1-docker.pkg.dev/nest-microservices-427320/image-registry/auth-ms',
       ]
+options:
+  logging: CLOUD_LOGGING_ONLY
